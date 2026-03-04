@@ -4,6 +4,16 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- Metadados para NuGet -->
+    <PackageId>BarcodeLib</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>WraSouza</Authors>
+    <Company>WraSouza</Company>
+    <Description>Biblioteca .NET para geração de códigos de barras (Code 128) e QR Codes em formato BMP usando ZXing.Net e SkiaSharp.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/WraSouza/BarcodeLib</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/WraSouza/BarcodeLib</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
