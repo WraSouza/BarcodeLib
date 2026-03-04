@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BarcodeLib/BarcodeLib.csproj" />
+  <Project Path="BarcodeLibTest/BarcodeLibTest.csproj" />
+</Solution>
