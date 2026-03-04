@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <!-- Metadados para NuGet -->
-    <PackageId>BarcodeLib</PackageId>
+    <PackageId>BarcodeLib.WraSouza</PackageId>
     <Version>1.0.0</Version>
     <Authors>WraSouza</Authors>
     <Company>WraSouza</Company>
