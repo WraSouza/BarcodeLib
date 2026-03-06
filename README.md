@@ -27,7 +27,9 @@ var generator = new BarcodeGenerator();
 
 if (generator.TryGenerate("123456789", out var barcodeBytes))
 {
-    File.WriteAllBytes("barcode.png", barcodeBytes);
+    var path = @"C:\Users\seu_usuario\Pictures\arquivo.bmp";
+    File.WriteAllBytes(path, barcodeBytes);
+    //Escrever no console é opcional
     Console.WriteLine("✅ Código de barras gerado!");
 }
 ```
@@ -41,7 +43,9 @@ var qr = new QrCodeGenerator();
 
 if (qr.TryGenerate("1234567890", out var qrBytes))
 {
-    File.WriteAllBytes("qrcode.png", qrBytes);
+    var path = @"C:\Users\seu_usuario\Pictures\arquivo.bmp";
+    File.WriteAllBytes(path, barcodeBytes);
+    //Escrever no console é opcional
     Console.WriteLine("✅ QR Code gerado!");
 }
 ```
