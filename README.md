@@ -44,7 +44,7 @@ var qr = new QrCodeGenerator();
 if (qr.TryGenerate("1234567890", out var qrBytes))
 {
     var path = @"C:\Users\seu_usuario\Pictures\arquivo.bmp";
-    File.WriteAllBytes(path, barcodeBytes);
+    File.WriteAllBytes(path, qrBytes);
     //Escrever no console é opcional
     Console.WriteLine("✅ QR Code gerado!");
 }
